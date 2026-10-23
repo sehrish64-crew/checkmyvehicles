@@ -3,7 +3,7 @@ export const SITE = {
   shortName: 'CheckMyVehicles',
   tagline: 'Comprehensive Vehicle Checks for Australian drivers',
   description:
-    'CheckMyVehicles delivers fast, detailed vehicle history reports for Australian buyers and sellers. Check any vehicle by VIN or number plate in minutes.',
+    'CheckMyVehicles delivers fast, detailed Digital Pdf Reports for Australian buyers and sellers. Check any vehicle by VIN or number plate in minutes.',
   url: 'https://checkmyvehicles.com',
   email: 'info@checkmyvehicles.com',
   phone: '1300 288 683',

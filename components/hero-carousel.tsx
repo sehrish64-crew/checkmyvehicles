@@ -22,7 +22,7 @@ const HERO_SLIDES = [
       'https://images.pexels.com/photos/8478259/pexels-photo-8478259.jpeg?auto=compress&cs=tinysrgb&w=2400&h=1400&fit=crop',
     heading: "Know your vehicle's full story before you buy or sell",
     description:
-      'CheckMyVehicles delivers instant, comprehensive vehicle history reports across Australia. Check any vehicle by VIN or number plate in minutes — stolen status, odometer, registration, encumbrance and more.',
+      'CheckMyVehicles delivers instant, comprehensive Digital Pdf Reports across Australia. Check any vehicle by VIN or number plate in minutes — stolen status, odometer, registration, encumbrance and more.',
   },
   {
     image:

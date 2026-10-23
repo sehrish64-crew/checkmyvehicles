@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         url: '/og-default.png',
         width: 1200,
         height: 630,
-        alt: `${SITE.name} — Vehicle History Reports`,
+        alt: `${SITE.name} — Digital Pdf Reports`,
       },
     ],
   },

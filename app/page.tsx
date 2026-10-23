@@ -18,7 +18,7 @@ import { HeroCarousel } from '@/components/hero-carousel';
 export const metadata = pageMetadata({
   title: 'Vehicle History Checks & Reports in Australia | CheckMyVehicles',
   description:
-    'Get a comprehensive vehicle history report before you buy or sell. Check any vehicle by VIN or number plate across Australia for stolen status, odometer, registration, encumbrance and more.',
+    'Get a comprehensive Digital Pdf Report before you buy or sell. Check any vehicle by VIN or number plate across Australia for stolen status, odometer, registration, encumbrance and more.',
   path: '/',
 });
 
@@ -323,7 +323,7 @@ export default function HomePage() {
             Ready to check your next vehicle?
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/80">
-            Get a comprehensive vehicle history report in minutes. No subscriptions, no hidden fees.
+            Get a comprehensive Digital Pdf Report in minutes. No subscriptions, no hidden fees.
           </p>
           <Link
             href="/pricing"

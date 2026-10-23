@@ -7,7 +7,7 @@ import { JsonLd } from '@/components/seo/json-ld';
 export const metadata = pageMetadata({
   title: 'About CheckMyVehicles — Australia\'s Trusted Vehicle Report Service',
   description:
-    'CheckMyVehicles was founded to give every Australian driver confidence when buying or selling a vehicle. Learn about our mission, values, and trusted vehicle history reporting.',
+    'CheckMyVehicles was founded to give every Australian driver confidence when buying or selling a vehicle. Learn about our mission, values, and trusted Digital Pdf Reporting.',
   path: '/about',
 });
 

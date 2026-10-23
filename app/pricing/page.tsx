@@ -6,9 +6,9 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { PACKAGES } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Pricing — Vehicle History Report Packages in AUD | CheckMyVehicles',
+  title: 'Pricing — Digital Pdf Report Packages in AUD | CheckMyVehicles',
   description:
-    'Transparent pricing for vehicle history reports in Australia. Standard Package AUD $70 and Premium Package AUD $90. Choose your package, enter your vehicle details, and get your report instantly.',
+    'Transparent pricing for Digital Pdf Reports in Australia. Standard Package AUD $70 and Premium Package AUD $90. Choose your package, enter your vehicle details, and get your report instantly.',
   path: '/pricing',
 });
 
@@ -28,7 +28,7 @@ const COMPARISON = [
 
 const FAQS = [
   {
-    question: 'How do I purchase a vehicle history report?',
+    question: 'How do I purchase a Digital Pdf Report?',
     answer:
       'Choose either the Standard or Premium package, click Buy Now, and fill in your full name, phone number, VIN or number plate, and city. Your report is generated instantly after purchase.',
   },
