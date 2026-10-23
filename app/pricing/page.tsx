@@ -6,9 +6,9 @@ import { JsonLd } from '@/components/seo/json-ld';
 import { PACKAGES } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Pricing — Car Report Packages in AUD | CheckMyVehicles',
+  title: 'Pricing — Vehicle History Report Packages in AUD | CheckMyVehicles',
   description:
-    'Transparent pricing for car reports in Australia. Standard Package AUD $70 and Premium Package AUD $90. Choose your package, enter your vehicle details, and get your report instantly.',
+    'Transparent pricing for vehicle history reports in Australia. Standard Package AUD $70 and Premium Package AUD $90. Choose your package, enter your vehicle details, and get your report instantly.',
   path: '/pricing',
 });
 
@@ -28,7 +28,7 @@ const COMPARISON = [
 
 const FAQS = [
   {
-    question: 'How do I purchase a car report?',
+    question: 'How do I purchase a vehicle history report?',
     answer:
       'Choose either the Standard or Premium package, click Buy Now, and fill in your full name, phone number, VIN or number plate, and city. Your report is generated instantly after purchase.',
   },
@@ -68,7 +68,7 @@ export default function PricingPage() {
               Pricing
             </p>
             <h1 className="mt-2 font-display text-2xl font-bold sm:text-5xl">
-              Choose your car report package
+              Choose your vehicle report package
             </h1>
             <p className="mt-3 text-sm text-white/60 sm:mt-4 sm:text-lg">
               Pick the package that suits your needs. All prices in Australian dollars (AUD).

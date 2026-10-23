@@ -81,7 +81,7 @@ export function serviceJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    serviceType: 'Car Checks and report service',
+    serviceType: 'Vehicle history checks and report service',
     provider: { '@type': 'Organization', name: SITE.name },
     areaServed: { '@type': 'Country', name: 'Australia' },
     offers: [

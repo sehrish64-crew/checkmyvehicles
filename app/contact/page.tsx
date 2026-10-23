@@ -129,7 +129,7 @@ export default function ContactPage() {
               We&apos;re here to help
             </h1>
             <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-white/65 sm:mt-4 sm:text-lg">
-              Got a question about your car report or need a hand? Our Australian-based team
+              Got a question about your vehicle report or need a hand? Our Australian-based team
               is ready to assist.
             </p>
           </Reveal>

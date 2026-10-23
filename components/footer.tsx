@@ -105,7 +105,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3 text-sm text-white/60">
                 <Shield className="mt-0.5 h-4 w-4 shrink-0 text-white/40" />
-                Instant reports delivered In Hours
+                Instant reports delivered in minutes
               </li>
             </ul>
           </div>

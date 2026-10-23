@@ -16,9 +16,9 @@ import { PricingCard } from '@/components/pricing-card';
 import { HeroCarousel } from '@/components/hero-carousel';
 
 export const metadata = pageMetadata({
-  title: 'Car Checks & Report Service in Australia | CheckMyVehicles',
+  title: 'Vehicle History Checks & Reports in Australia | CheckMyVehicles',
   description:
-    'Get a comprehensive car report before you buy or sell. CheckMyVehicles checks any vehicle by VIN or number plate across Australia — stolen status, odometer, rego, encumbrance and more. Reports In Hours.',
+    'Get a comprehensive vehicle history report before you buy or sell. Check any vehicle by VIN or number plate across Australia for stolen status, odometer, registration, encumbrance and more.',
   path: '/',
 });
 
@@ -45,13 +45,13 @@ const SERVICES = [
     icon: Car,
     title: 'Accident & Damage History',
     description:
-      'Uncover any recorded accident or structural damage so you know exactly what the car has been through.',
+      'Uncover any recorded accident or structural damage so you know exactly what the vehicle has been through.',
   },
   {
     icon: Wrench,
     title: 'Service & Recall Records',
     description:
-      'See manufacturer recalls and available service intervals to understand how well the car was maintained.',
+      'See manufacturer recalls and available service intervals to understand how well the vehicle was maintained.',
   },
   {
     icon: FileSearch,
@@ -87,25 +87,25 @@ const TESTIMONIALS = [
     name: 'James R.',
     location: 'Sydney, NSW',
     rating: 5,
-    text: 'Saved me from buying a written-off car. The report was instant and incredibly detailed. Highly recommend to anyone buying a used car in Australia.',
+    text: 'Saved me from buying a written-off vehicle. The report was instant and incredibly detailed. Highly recommend to anyone buying a used vehicle in Australia.',
   },
   {
     name: 'Sophie T.',
     location: 'Brisbane, QLD',
     rating: 5,
-    text: 'I used CheckMyVehicles before selling my car. The buyer was impressed I had a full report ready. Worth every cent for the peace of mind.',
+    text: 'I used CheckMyVehicles before selling my vehicle. The buyer was impressed I had a full report ready. Worth every cent for the peace of mind.',
   },
   {
     name: 'Michael C.',
     location: 'Melbourne, VIC',
     rating: 5,
-    text: 'Found out the odometer had been tampered with. This service literally saved me thousands. Easy to use and the report was ready In Hours.',
+    text: 'Found out the odometer had been tampered with. This service literally saved me thousands. Easy to use and the report was ready in minutes.',
   },
 ];
 
 const FAQS = [
   {
-    question: 'How do I check a car in Australia?',
+    question: 'How do I check a vehicle in Australia?',
     answer:
       'Simply enter the vehicle identification number (VIN) or number plate on our pricing page, choose a package, and complete your purchase. Your detailed report is generated instantly and ready to download.',
   },
@@ -165,7 +165,7 @@ export default function HomePage() {
               Everything checked, nothing missed
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Our comprehensive car reports cover every critical detail you need to make an
+              Our comprehensive vehicle reports cover every critical detail you need to make an
               informed decision on your next vehicle.
             </p>
           </Reveal>
@@ -196,10 +196,10 @@ export default function HomePage() {
               How It Works
             </p>
             <h2 className="mt-2 font-display text-3xl font-bold sm:text-4xl">
-              Get your car report in three simple steps
+              Get your vehicle report in three simple steps
             </h2>
             <p className="mt-4 text-lg text-white/60">
-              No paperwork, no waiting. Just enter your details and get a full report In Hours.
+              No paperwork, no waiting. Just enter your details and get a full report in minutes.
             </p>
           </Reveal>
 
@@ -320,10 +320,10 @@ export default function HomePage() {
       <section className="bg-primary py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="font-display text-3xl font-bold text-primary-foreground sm:text-4xl">
-            Ready to check your next car?
+            Ready to check your next vehicle?
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/80">
-            Get a comprehensive car report In Hours. No subscriptions, no hidden fees.
+            Get a comprehensive vehicle history report in minutes. No subscriptions, no hidden fees.
           </p>
           <Link
             href="/pricing"

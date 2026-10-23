@@ -20,9 +20,9 @@ const HERO_SLIDES = [
   {
     image:
       'https://images.pexels.com/photos/8478259/pexels-photo-8478259.jpeg?auto=compress&cs=tinysrgb&w=2400&h=1400&fit=crop',
-    heading: "Know your car's full story before you buy or sell",
+    heading: "Know your vehicle's full story before you buy or sell",
     description:
-      'CheckMyVehicles delivers instant, comprehensive car reports across Australia. Check any vehicle by VIN or number plate In Hours — stolen status, odometer, registration, encumbrance and more.',
+      'CheckMyVehicles delivers instant, comprehensive vehicle history reports across Australia. Check any vehicle by VIN or number plate in minutes — stolen status, odometer, registration, encumbrance and more.',
   },
   {
     image:
@@ -41,7 +41,7 @@ const HERO_SLIDES = [
   {
     image:
       'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2400&q=90',
-    heading: 'Buy your next car with confidence',
+    heading: 'Buy your next vehicle with confidence',
     description:
       'Check any Australian vehicle by VIN or number plate and get the important information you need before you buy or sell.',
   },
@@ -177,7 +177,7 @@ export function HeroCarousel() {
         </div>
       </div>
 
-      <div className="relative mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
+      <div className="relative mx-auto w-full max-w-7xl px-4 pt-10 pb-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="max-w-3xl">
           <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-medium text-white backdrop-blur-sm sm:mb-6 sm:px-4 sm:text-sm">
             <ShieldCheck className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
@@ -223,7 +223,7 @@ export function HeroCarousel() {
               href="/pricing"
               className="inline-flex min-h-10 flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg bg-primary px-3 py-2.5 text-xs font-semibold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:shadow-xl sm:min-h-0 sm:flex-none sm:gap-2 sm:px-6 sm:py-3.5 sm:text-sm"
             >
-              Get your car report
+              Get your vehicle report
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
@@ -235,7 +235,7 @@ export function HeroCarousel() {
           </div>
           <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] text-white/70 sm:mt-12 sm:gap-x-8 sm:gap-y-4 sm:text-sm">
             <span className="flex items-center gap-2">
-              <Clock className="h-4 w-4" /> Reports In Hours
+              <Clock className="h-4 w-4" /> Reports in minutes
             </span>
             <span className="flex items-center gap-2">
               <MapPin className="h-4 w-4" /> All Australian states

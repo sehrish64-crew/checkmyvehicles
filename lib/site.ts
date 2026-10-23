@@ -1,9 +1,9 @@
 export const SITE = {
   name: 'CheckMyVehicles',
   shortName: 'CheckMyVehicles',
-  tagline: 'Comprehensive Car Checkss for Australian drivers',
+  tagline: 'Comprehensive Vehicle Checks for Australian drivers',
   description:
-    'CheckMyVehicles delivers fast, detailed car reports for Australian buyers and sellers. Check any vehicle by VIN or number plate In Hours.',
+    'CheckMyVehicles delivers fast, detailed vehicle history reports for Australian buyers and sellers. Check any vehicle by VIN or number plate in minutes.',
   url: 'https://checkmyvehicles.com',
   email: 'info@checkmyvehicles.com',
   phone: '1300 288 683',
@@ -35,7 +35,7 @@ export const PACKAGES = [
     name: 'Standard Package',
     price: 70,
     description:
-      'Everything you need to check a car before buying or selling across Australia.',
+      'Everything you need to check a vehicle before buying or selling across Australia.',
     features: [
       'Written-off and stolen status check',
       'Odometer reading and rollback alert',

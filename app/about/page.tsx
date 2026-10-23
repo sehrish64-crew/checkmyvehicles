@@ -5,9 +5,9 @@ import { pageMetadata, breadcrumbJsonLd, organizationJsonLd } from '@/lib/seo';
 import { JsonLd } from '@/components/seo/json-ld';
 
 export const metadata = pageMetadata({
-  title: 'About CheckMyVehicles — Australia\'s Trusted Car Report Service',
+  title: 'About CheckMyVehicles — Australia\'s Trusted Vehicle Report Service',
   description:
-    'CheckMyVehicles was founded to give every Australian driver confidence when buying or selling a car. Learn about our mission, values, and the team behind Australia\'s most trusted Car Checks service.',
+    'CheckMyVehicles was founded to give every Australian driver confidence when buying or selling a vehicle. Learn about our mission, values, and trusted vehicle history reporting.',
   path: '/about',
 });
 
@@ -21,7 +21,7 @@ const VALUES = [
     icon: ShieldCheck,
     title: 'Trust & Transparency',
     description:
-      'We believe every Australian deserves the full story before they buy a car. Our reports are accurate, clear, and never hide the facts.',
+      'We believe every Australian deserves the full story before they buy a vehicle. Our reports are accurate, clear, and never hide the facts.',
   },
   {
     icon: TrendingUp,
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Empowering Australian drivers with knowledge
             </h1>
             <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-white/65 sm:mt-4 sm:text-lg">
-              CheckMyVehicles was founded to bring transparency to the used Vehicle market giving
+              CheckMyVehicles was founded to bring transparency to the used vehicle market, giving
               every buyer and seller the information they need to make confident decisions.
             </p>
           </Reveal>
@@ -73,7 +73,7 @@ export default function AboutPage() {
             <Reveal>
               <img
                 src={ABOUT_IMAGE_1}
-                alt="Mechanic carefully checking a car engine in a professional Australian workshop"
+                alt="Mechanic carefully checking a vehicle engine in a professional Australian workshop"
                 className="max-h-72 w-full rounded-2xl object-cover shadow-lg sm:max-h-none"
               />
             </Reveal>
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 Built by Australians, for Australians
               </h2>
               <p className="mt-3 text-base leading-relaxed text-muted-foreground sm:mt-4 sm:text-lg">
-                CheckMyVehicles was born out of a simple frustration: buying a used car in Australia
+                CheckMyVehicles was born out of a simple frustration: buying a used vehicle in Australia
                 meant taking someone at their word. We knew there was a better way.
               </p>
               <p className="mt-4 leading-relaxed text-muted-foreground">
@@ -116,9 +116,9 @@ export default function AboutPage() {
                 </div>
                 <h3 className="mt-4 text-lg font-semibold sm:mt-5 sm:text-xl">Our Mission</h3>
                 <p className="mt-2 leading-relaxed text-muted-foreground">
-                  To make comprehensive Car Checkss accessible to every Australian driver — fast,
+                  To make comprehensive vehicle history checks accessible to every Australian driver — fast,
                   affordable, and reliable. We want to eliminate the risk and uncertainty from
-                  buying and selling used cars across the country.
+                  buying and selling used vehicles across the country.
                 </p>
               </div>
             </Reveal>
@@ -129,8 +129,8 @@ export default function AboutPage() {
                 </div>
                 <h3 className="mt-4 text-lg font-semibold sm:mt-5 sm:text-xl">Our Vision</h3>
                 <p className="mt-2 leading-relaxed text-muted-foreground">
-                  A future where no Australian buys a car without knowing its full history.
-                  We aim to be the most trusted name in Car Checkss nationwide, setting the
+                  A future where no Australian buys a vehicle without knowing its full history.
+                  We aim to be the most trusted name in vehicle history checks nationwide, setting the
                   standard for transparency in the automotive market.
                 </p>
               </div>
@@ -198,13 +198,13 @@ export default function AboutPage() {
           <Reveal className="relative overflow-hidden rounded-2xl">
             <img
               src={ABOUT_IMAGE_2}
-              alt="Modern automotive showroom with high-quality cars, representing CheckMyVehicles's commitment to quality"
+              alt="Modern automotive showroom with high-quality vehicles, representing CheckMyVehicles's commitment to quality"
               className="h-64 w-full object-cover sm:h-96"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black/50">
               <div className="max-w-2xl px-5 text-center sm:px-6">
                 <h2 className="font-display text-2xl font-bold leading-tight text-white sm:text-4xl">
-                  Committed to a fairer car market
+                  Committed to a fairer vehicle market
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-white/80 sm:text-lg">
                   Every report we generate brings us closer to a market where honesty is the norm,
@@ -214,7 +214,7 @@ export default function AboutPage() {
                   href="/pricing"
                   className="mt-5 inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 sm:mt-6 sm:px-6"
                 >
-                  Get your car report
+                  Get your vehicle report
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>

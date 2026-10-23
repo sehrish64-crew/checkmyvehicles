@@ -164,7 +164,7 @@ export function CheckoutFlow({ selectedPackage }: CheckoutFlowProps) {
                 A smarter way to buy with confidence
               </div>
               <h1 className="mt-5 font-display text-3xl font-bold tracking-tight sm:text-4xl">
-                Let&apos;s get your car report started.
+                Let&apos;s get your vehicle report started.
               </h1>
               <p className="mt-3 max-w-lg text-sm leading-6 text-slate-300 sm:text-base">
                 Share a few details, check everything is right, and you&apos;ll be ready for secure
