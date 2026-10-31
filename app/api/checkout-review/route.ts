@@ -5,6 +5,7 @@ export const runtime = 'nodejs';
 
 const checkoutSchema = z.object({
   fullName: z.string().trim().min(2).max(80),
+  email: z.string().trim().email().max(254),
   phoneNumber: z
     .string()
     .trim()
@@ -67,9 +68,10 @@ export async function POST(request: Request) {
     );
   }
 
-  const { fullName, phoneNumber, vehicleType, vinOrPlate, city, packageId } = parsed.data;
+  const { fullName, email, phoneNumber, vehicleType, vinOrPlate, city, packageId } = parsed.data;
   const packageName = packageId === 'standard' ? 'Standard Package' : 'Premium Package';
   const safeFullName = escapeHtml(fullName);
+  const safeEmail = escapeHtml(email);
   const safePhoneNumber = escapeHtml(phoneNumber);
   const safeVehicleType = escapeHtml(vehicleType);
   const safeVinOrPlate = escapeHtml(vinOrPlate);
@@ -93,6 +95,7 @@ export async function POST(request: Request) {
         '',
         'CUSTOMER DETAILS',
         `Full name: ${fullName}`,
+        `Email address: ${email}`,
         `Mobile number: ${phoneNumber}`,
         `City: ${city}`,
         `Vehicle type: ${vehicleType}`,
@@ -140,6 +143,10 @@ export async function POST(request: Request) {
                           <tr>
                             <td style="padding:13px 0;border-bottom:1px solid #e2e8f0;color:#64748b;font-size:14px;width:38%;">Full name</td>
                             <td style="padding:13px 0;border-bottom:1px solid #e2e8f0;color:#0f172a;font-size:14px;font-weight:bold;">${safeFullName}</td>
+                          </tr>
+                          <tr>
+                            <td style="padding:13px 0;border-bottom:1px solid #e2e8f0;color:#64748b;font-size:14px;">Email address</td>
+                            <td style="padding:13px 0;border-bottom:1px solid #e2e8f0;color:#0f172a;font-size:14px;">${safeEmail}</td>
                           </tr>
                           <tr>
                             <td style="padding:13px 0;border-bottom:1px solid #e2e8f0;color:#64748b;font-size:14px;">Mobile number</td>

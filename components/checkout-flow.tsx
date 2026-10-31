@@ -17,6 +17,7 @@ import {
   CircleHelp,
   ClipboardCheck,
   LockKeyhole,
+  Mail,
   MapPin,
   Phone,
   Ship,
@@ -47,6 +48,7 @@ import { PAYMENT_LINKS } from '@/lib/site';
 
 const formSchema = z.object({
   fullName: z.string().trim().min(2, 'Please enter your full name').max(80, 'Name is too long'),
+  email: z.string().trim().email('Please enter a valid email address').max(254, 'Email is too long'),
   phoneNumber: z
     .string()
     .trim()
@@ -104,6 +106,7 @@ export function CheckoutFlow({ selectedPackage }: CheckoutFlowProps) {
     mode: 'onTouched',
     defaultValues: {
       fullName: '',
+      email: '',
       phoneNumber: '',
       vehicleType: undefined,
       vinOrPlate: '',
@@ -216,6 +219,31 @@ export function CheckoutFlow({ selectedPackage }: CheckoutFlowProps) {
                                 className={`${inputClassName} pl-11`}
                                 placeholder="e.g. Alex Taylor"
                                 autoComplete="name"
+                                {...field}
+                              />
+                            </div>
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+
+                    <FormField
+                      control={form.control}
+                      name="email"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className="text-sm font-semibold text-slate-800">
+                            Email address
+                          </FormLabel>
+                          <FormControl>
+                            <div className="relative">
+                              <Mail className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
+                              <Input
+                                className={`${inputClassName} pl-11`}
+                                placeholder="e.g. alex@example.com"
+                                autoComplete="email"
+                                type="email"
                                 {...field}
                               />
                             </div>
@@ -386,6 +414,7 @@ export function CheckoutFlow({ selectedPackage }: CheckoutFlowProps) {
 
                 <div className="space-y-3">
                   <ReviewRow icon={UserRound} label="Full name" value={values.fullName} />
+                  <ReviewRow icon={Mail} label="Email address" value={values.email} />
                   <ReviewRow icon={Phone} label="Mobile number" value={values.phoneNumber} />
                   <ReviewRow icon={CarFront} label="Vehicle type" value={values.vehicleType} />
                   <ReviewRow icon={CarFront} label="VIN / Number plate" value={values.vinOrPlate} />
